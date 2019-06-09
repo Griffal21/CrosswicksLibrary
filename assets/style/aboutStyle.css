@@ -40,7 +40,7 @@ h5{
   margin: 1px;
 }
 
-#polRow{
+.jumRow{
   display: flex;
   text-align: justify;
 }

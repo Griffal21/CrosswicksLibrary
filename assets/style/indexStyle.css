@@ -11,3 +11,46 @@ body{
   filter: alpha(opacity=30); */
   background: rgba(220, 220, 220, 0.35);
 }
+
+#hoursCard{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+
+}
+
+.card{
+  background: rgba(220, 220, 220, 0.7);
+  margin: 1px;
+}
+
+h1{
+  opacity: 1;
+  font-family: "Georgia", "times new roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+h6{
+  opacity: 1;
+  font-family: "Georgia", "times new roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+small{
+    opacity: 1;
+    font-family: "Georgia", "times new roman";
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+  opacity: 1;
+  font-family: "verdana", "trebuchet ms", "sans";
+}
+
+.jumRow{
+  display: flex;
+  text-align: justify;
+}
