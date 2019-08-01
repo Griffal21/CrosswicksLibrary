@@ -1,0 +1,46 @@
+body{
+  background: url("../images/black-and-white-books.jpg");
+}
+
+.navbar{
+  margin-bottom: 40px;
+}
+
+#aboutJumbo{
+  /* opacity: 0.3;
+  filter: alpha(opacity=30); */
+  background: rgba(220, 220, 220, 0.35);
+}
+
+p{
+  opacity: 1;
+  font-family: "verdana", "trebuchet ms", "sans";
+}
+
+h1{
+  opacity: 1;
+  font-family: "Georgia", "times new roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+h5{
+  opacity: 1;
+  font-family: "Georgia", "times new roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+#missionImg {
+  opacity: 1;
+}
+
+.card{
+  background: rgba(220, 220, 220, 0.7);
+  margin: 1px;
+}
+
+.jumRow{
+  display: flex;
+  text-align: justify;
+}

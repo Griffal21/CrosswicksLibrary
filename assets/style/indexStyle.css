@@ -1,0 +1,88 @@
+body{
+  background: url("../images/books-bookshelves.jpg");
+}
+
+.navbar{
+  margin-bottom: 40px;
+}
+
+#indexJumbo{
+  /* opacity: 0.3;
+  filter: alpha(opacity=30); */
+  background: rgba(220, 220, 220, 0.35);
+}
+
+#big{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+
+@media (max-width: 1735px) {                  
+  #big {
+     display: none;
+  }
+}
+
+@media (min-width: 1735px) {                  
+  #small {
+     display: none;
+  }
+}
+
+.card{
+  background: rgba(220, 220, 220, 0.7);
+  margin: 1px;
+}
+
+h1{
+  opacity: 1;
+  font-family: "Georgia", "times new roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+h6{
+  opacity: 1;
+  font-family: "Georgia", "times new roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+small{
+    opacity: 1;
+    font-family: "Georgia", "times new roman";
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+  opacity: 1;
+  font-family: "verdana", "trebuchet ms", "sans";
+}
+
+.jumRow{
+  display: flex;
+  text-align: justify;
+}
+
+.responsiveCal {
+  position: relative; 
+  padding-bottom: 75%; height: 0; 
+  overflow: hidden;
+  opacity: .85;
+  }
+   
+  .responsiveCal iframe {
+  position: absolute; 
+  top:0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  }
+
+  #mapImage{
+    max-width: 100%;
+    height: auto;
+  }
